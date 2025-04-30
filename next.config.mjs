@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
-const repoName = 'yuukiendo.github.io'; // Replace with your actual repository name
-
 const nextConfig = {
-    output: "export",
-    images: {
-        unoptimized: true
-    },
-    basePath: `/${repoName}`,
-    assetPrefix: `/${repoName}`,
+  output: "export",
+  images: { 
+    unoptimized: true 
+  },
+    basePath: "/yuukiendo.github.io/", // Your repository name
+    assetPrefix: "/yuukiendo.github.io/", // Note the trailing slash
 };
 
 export default nextConfig;
