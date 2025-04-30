@@ -38,17 +38,19 @@ jobs:
         run: |
           if [ -f "next.config.js" ]; then
             # For next.config.js
-            sed -i "s/module.exports = {/module.exports = {\n  output: 'export',\n  images: { unoptimized: true },\n  basePath: '\/${GITHUB_REPOSITORY#*/}',\n  assetPrefix: '\/${GITHUB_REPOSITORY#*/}',/g" next.config.js
+            sed -i "s/module.exports = {/module.exports = {\n  output: 'export',\n  images: { unoptimized: true },/g" next.config.js
           elif [ -f "next.config.mjs" ]; then
             # For next.config.mjs
-            sed -i "s/const nextConfig = {/const nextConfig = {\n  output: 'export',\n  images: { unoptimized: true },\n  basePath: '\/${GITHUB_REPOSITORY#*/}',\n  assetPrefix: '\/${GITHUB_REPOSITORY#*/}',/g" next.config.mjs
+            sed -i "s/const nextConfig = {/const nextConfig = {\n  output: 'export',\n  images: { unoptimized: true },/g" next.config.mjs
           fi
         
       - name: Build project
         run: npm run build
         
-      - name: Add .nojekyll file
-        run: touch ./out/.nojekyll
+      - name: Add .nojekyll files
+        run: |
+          touch .nojekyll
+          touch ./out/.nojekyll
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
