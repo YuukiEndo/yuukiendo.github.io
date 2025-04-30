@@ -15,7 +15,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
       <main className="flex-1">
-        <section className="container py-12 md:py-24 lg:py-32">
+        <section className="container mx-auto px-4 py-12 md:py-24 lg:py-32">
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container py-12 md:py-24 lg:py-32 bg-muted/50">
+        <section className="container mx-auto px-4 py-12 md:py-24 lg:py-32 bg-muted/50">
           <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">{t("skills.title")}</h2>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container py-12 md:py-24 lg:py-32">
+        <section className="container mx-auto px-4 py-12 md:py-24 lg:py-32">
           <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">{t("projects.title")}</h2>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
@@ -156,7 +156,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container py-12 md:py-24 lg:py-32 bg-muted/50">
+        <section className="container mx-auto px-4 py-12 md:py-24 lg:py-32 bg-muted/50">
           <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">{t("blog.title")}</h2>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
@@ -202,7 +202,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container py-12 md:py-24 lg:py-32">
+        <section className="container mx-auto px-4 py-12 md:py-24 lg:py-32">
           <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center">
             <h2 className="text-3xl font-bold leading-[1.1] sm:text-3xl md:text-5xl">{t("contact.title")}</h2>
             <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
