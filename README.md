@@ -1,2 +1,0 @@
-# yuukiendo.github.io
-test
