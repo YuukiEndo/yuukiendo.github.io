@@ -1,14 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: "export",
+  basePath: "/yuukiendo.github.io",  // Replace with your actual repository name
   images: {
-    unoptimized: true,
+    unoptimized: true,  // Required for static export
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
