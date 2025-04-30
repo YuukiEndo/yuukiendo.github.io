@@ -9,7 +9,7 @@ export default function BlogPost2Page() {
   const { t } = useLanguage()
 
   return (
-    <div className="container py-12 md:py-24 lg:py-32">
+      <div className="container mx-auto px-4 py-12 md:py-24 lg:py-32">
       <div className="flex items-center gap-4 mb-8">
         <Button variant="ghost" size="icon" asChild>
           <Link href="/blog">
