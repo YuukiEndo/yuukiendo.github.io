@@ -21,12 +21,12 @@ export default function BlogPost3Page() {
 
       <article className="prose prose-slate dark:prose-invert mx-auto max-w-3xl">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4">
-          Optimizing Game Performance
+          Blog Post 3
         </h1>
         <div className="flex items-center gap-2 text-sm text-muted-foreground mb-8">
-          <time dateTime="2023-02-10">February 10, 2023</time>
+          <time dateTime="2023-02-10">Date 3</time>
           <span>•</span>
-          <span>12 min read</span>
+          <span>est read time</span>
         </div>
 
         <div className="aspect-video w-full overflow-hidden rounded-lg bg-gray-300 mb-8">
@@ -37,11 +37,10 @@ export default function BlogPost3Page() {
 
         <div className="space-y-6">
           <p>
-            This is a placeholder for your blog post content. You can add your detailed content here about optimizing
-            game performance.
+            Blog 3 text here
           </p>
 
-          <h2>Understanding Performance Bottlenecks</h2>
+          {/*<h2>Understanding Performance Bottlenecks</h2>
           <p>
             Add content about identifying performance bottlenecks here. Discuss profiling tools, common performance
             issues, and how to diagnose them.
@@ -69,7 +68,7 @@ export default function BlogPost3Page() {
           <p>
             Summarize your game performance optimization techniques and provide any final thoughts or recommendations
             for other developers.
-          </p>
+          </p>*/}
         </div>
       </article>
 
@@ -77,15 +76,15 @@ export default function BlogPost3Page() {
         <h3 className="text-xl font-bold mb-4">Related Posts</h3>
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="rounded-lg border p-4">
-            <h4 className="font-bold">Game Development Process</h4>
-            <p className="text-sm text-muted-foreground mb-2">April 15, 2023</p>
+            <h4 className="font-bold">Blog 1</h4>
+            <p className="text-sm text-muted-foreground mb-2">Date 1</p>
             <Button variant="link" className="p-0 h-auto" asChild>
               <Link href="/blog/post-1">Read More</Link>
             </Button>
           </div>
           <div className="rounded-lg border p-4">
-            <h4 className="font-bold">Unity Tips & Tricks</h4>
-            <p className="text-sm text-muted-foreground mb-2">March 22, 2023</p>
+            <h4 className="font-bold">Blog 2</h4>
+            <p className="text-sm text-muted-foreground mb-2">Date 2</p>
             <Button variant="link" className="p-0 h-auto" asChild>
               <Link href="/blog/post-2">Read More</Link>
             </Button>

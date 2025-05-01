@@ -20,11 +20,11 @@ export default function BlogPost1Page() {
       </div>
 
       <article className="prose prose-slate dark:prose-invert mx-auto max-w-3xl">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4">Game Development Process</h1>
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4">Blog 1</h1>
         <div className="flex items-center gap-2 text-sm text-muted-foreground mb-8">
-          <time dateTime="2023-04-15">April 15, 2023</time>
+          <time dateTime="2023-04-15">Date 1</time>
           <span>•</span>
-          <span>10 min read</span>
+          <span>est reading time</span>
         </div>
 
         <div className="aspect-video w-full overflow-hidden rounded-lg bg-gray-300 mb-8">
@@ -35,9 +35,9 @@ export default function BlogPost1Page() {
 
         <div className="space-y-6">
           <p>
-            This is a placeholder for your blog post content. You can add your detailed content here about your game
-            development process.
-          </p>
+            Add Text Here
+            </p>
+{/*          </p>
 
           <h2>Planning Phase</h2>
           <p>
@@ -67,7 +67,7 @@ export default function BlogPost1Page() {
           <p>
             Summarize your game development process and provide any final thoughts or recommendations for other
             developers.
-          </p>
+          </p>*/}
         </div>
       </article>
 
@@ -75,15 +75,15 @@ export default function BlogPost1Page() {
         <h3 className="text-xl font-bold mb-4">Related Posts</h3>
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="rounded-lg border p-4">
-            <h4 className="font-bold">Unity Tips & Tricks</h4>
-            <p className="text-sm text-muted-foreground mb-2">March 22, 2023</p>
+            <h4 className="font-bold">Blog post 2</h4>
+            <p className="text-sm text-muted-foreground mb-2">Date 2</p>
             <Button variant="link" className="p-0 h-auto" asChild>
               <Link href="/blog/post-2">Read More</Link>
             </Button>
           </div>
           <div className="rounded-lg border p-4">
-            <h4 className="font-bold">Optimizing Game Performance</h4>
-            <p className="text-sm text-muted-foreground mb-2">February 10, 2023</p>
+            <h4 className="font-bold">Blog Post 3</h4>
+            <p className="text-sm text-muted-foreground mb-2">Date</p>
             <Button variant="link" className="p-0 h-auto" asChild>
               <Link href="/blog/post-3">Read More</Link>
             </Button>

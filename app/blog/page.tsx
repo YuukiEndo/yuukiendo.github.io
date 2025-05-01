@@ -28,11 +28,10 @@ export default function BlogPage() {
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               <div className="group relative overflow-hidden rounded-lg border">
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold">Game Development Process</h2>
-                  <p className="mt-2 text-sm text-muted-foreground">April 15, 2023</p>
+                  <h2 className="text-2xl font-bold">Blog Post 1</h2>
+                  <p className="mt-2 text-sm text-muted-foreground">Date 1</p>
                   <p className="mt-2 text-muted-foreground">
-                    An inside look at my development process for creating engaging game mechanics and how I approach
-                    design challenges.
+                    Test Text for Blog post 1
                   </p>
                   <div className="mt-6">
                     <Button variant="outline" asChild>
@@ -44,11 +43,10 @@ export default function BlogPage() {
 
               <div className="group relative overflow-hidden rounded-lg border">
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold">Unity Tips & Tricks</h2>
-                  <p className="mt-2 text-sm text-muted-foreground">March 22, 2023</p>
+                  <h2 className="text-2xl font-bold">Blog Post 2</h2>
+                  <p className="mt-2 text-sm text-muted-foreground">Date 2</p>
                   <p className="mt-2 text-muted-foreground">
-                    Useful Unity techniques I've learned while developing my latest project that can help other game
-                    developers.
+                    Test Text for Blog post 2
                   </p>
                   <div className="mt-6">
                     <Button variant="outline" asChild>
@@ -60,11 +58,10 @@ export default function BlogPage() {
 
               <div className="group relative overflow-hidden rounded-lg border">
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold">Optimizing Game Performance</h2>
-                  <p className="mt-2 text-sm text-muted-foreground">February 10, 2023</p>
+                  <h2 className="text-2xl font-bold">Blog post 3</h2>
+                  <p className="mt-2 text-sm text-muted-foreground">Date  3</p>
                   <p className="mt-2 text-muted-foreground">
-                    Strategies for improving performance in resource-intensive games and techniques for profiling and
-                    optimization.
+                    test text for blog post 3
                   </p>
                   <div className="mt-6">
                     <Button variant="outline" asChild>
