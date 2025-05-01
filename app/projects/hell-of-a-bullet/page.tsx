@@ -39,8 +39,8 @@ export default function HellOfABulletProjectPage() {
                 <h2 className="text-2xl font-bold">About the Project</h2>
                 <p className="text-muted-foreground">{t("project.hellOfABullet.description")}</p>
                 <p className="text-muted-foreground">
-                  Add more detailed description here. This is a placeholder for you to add more content about the
-                  project, its goals, challenges, and outcomes.
+                  Simple bullet hell game using a custom game engine created in C++ using Allegro. This game was
+                  created for a game engine class and was created in 1 month.
                 </p>
               </div>
 
@@ -50,8 +50,8 @@ export default function HellOfABulletProjectPage() {
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Custom game engine using Allegro</li>
                   <li>Bullet-hell gameplay mechanics</li>
-                  <li>Procedural enemy patterns</li>
-                  <li>Add more features here...</li>
+                  <li>Bullet-hell pattern generation</li>
+                  <li>Fully Random patterns</li>
                 </ul>
               </div>
 
@@ -59,7 +59,10 @@ export default function HellOfABulletProjectPage() {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold">Development Process</h2>
                 <p className="text-muted-foreground">
-                  Add details about the development process, challenges faced, and solutions implemented.
+                  This game was part of a game engine class and was created in 1 month. This game was created using a
+                  custom game engine created in C++ using Allegro. I was responsible for the development of the
+                  bullet-hell spawning as well as making the game run smoothly even with a lot of bullets. The game
+                  was able to maintain 60 fps with no drops in frames.
                 </p>
               </div>
 
@@ -83,17 +86,17 @@ export default function HellOfABulletProjectPage() {
 
                 <div>
                   <h3 className="font-medium">Role</h3>
-                  <p className="text-muted-foreground">Solo Developer</p>
+                  <p className="text-muted-foreground">Programmer</p>
                 </div>
 
                 <div>
                   <h3 className="font-medium">Duration</h3>
-                  <p className="text-muted-foreground">3 months</p>
+                  <p className="text-muted-foreground">1 months</p>
                 </div>
 
                 <div>
                   <h3 className="font-medium">Team Size</h3>
-                  <p className="text-muted-foreground">1 person</p>
+                  <p className="text-muted-foreground">2 person</p>
                 </div>
 
                 <div>
@@ -114,23 +117,9 @@ export default function HellOfABulletProjectPage() {
 
               {/* Links */}
               <div className="rounded-lg border p-6 space-y-4">
-                <h2 className="text-xl font-bold">Links</h2>
+                <h2 className="text-xl font-bold">No Links</h2>
                 <div className="space-y-2">
-                  <Button variant="outline" className="w-full" asChild>
-                    <Link href="#" target="_blank" rel="noopener noreferrer">
-                      Play Demo
-                    </Link>
-                  </Button>
-                  <Button variant="outline" className="w-full" asChild>
-                    <Link href="#" target="_blank" rel="noopener noreferrer">
-                      View Source Code
-                    </Link>
-                  </Button>
-                  <Button variant="outline" className="w-full" asChild>
-                    <Link href="#" target="_blank" rel="noopener noreferrer">
-                      Download
-                    </Link>
-                  </Button>
+
                 </div>
               </div>
 
