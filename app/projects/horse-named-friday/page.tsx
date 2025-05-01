@@ -39,8 +39,8 @@ export default function HorseNamedFridayProjectPage() {
                 <h2 className="text-2xl font-bold">About the Project</h2>
                 <p className="text-muted-foreground">{t("project.horseNamedFriday.description")}</p>
                 <p className="text-muted-foreground">
-                  Add more detailed description here. This is a placeholder for you to add more content about the
-                  project, its goals, challenges, and outcomes.
+                  I joined this team halfway into development. I was responsible for the enemy AI as well as
+                  developing tools for the designers to create levels with.
                 </p>
               </div>
 
@@ -48,10 +48,10 @@ export default function HorseNamedFridayProjectPage() {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold">Features</h2>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Advanced enemy AI systems</li>
+                  <li>Enemy AI systems</li>
                   <li>PS2-inspired visual aesthetic</li>
                   <li>Designer-friendly tools for level creation</li>
-                  <li>Add more features here...</li>
+                  <li>AI Pathfinding</li>
                 </ul>
               </div>
 
@@ -59,7 +59,12 @@ export default function HorseNamedFridayProjectPage() {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold">Development Process</h2>
                 <p className="text-muted-foreground">
-                  Add details about the development process, challenges faced, and solutions implemented.
+                  Joining a mid-development team was a great learning experience for me. It was the first time I had
+                  done something like this and it was a great experience. Learning how to read and understand other people's
+                  code was also a great experience. I was able to work on the AI of the enemies for the game and had to create
+                  fast and rapid prototypes for the designers to test and use within the levels. I also developed tools
+                  for the designers to use to create the levels and the lore of the game. This was also one of the first
+                  times I was responsible for the audio portion of the game as well.
                 </p>
               </div>
 
@@ -83,17 +88,17 @@ export default function HorseNamedFridayProjectPage() {
 
                 <div>
                   <h3 className="font-medium">Role</h3>
-                  <p className="text-muted-foreground">AI Programmer</p>
+                  <p className="text-muted-foreground">AI,Tools Programmer</p>
                 </div>
 
                 <div>
                   <h3 className="font-medium">Duration</h3>
-                  <p className="text-muted-foreground">4 months</p>
+                  <p className="text-muted-foreground">2 Months</p>
                 </div>
 
                 <div>
                   <h3 className="font-medium">Team Size</h3>
-                  <p className="text-muted-foreground">5 people</p>
+                  <p className="text-muted-foreground">7 people</p>
                 </div>
 
                 <div>
@@ -106,10 +111,10 @@ export default function HorseNamedFridayProjectPage() {
                       C#
                     </span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                      AI Systems
+                      Inky
                     </span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                      Editor Tools
+                      Unity Custom Tools
                     </span>
                   </div>
                 </div>
@@ -117,9 +122,9 @@ export default function HorseNamedFridayProjectPage() {
 
               {/* Links */}
               <div className="rounded-lg border p-6 space-y-4">
-                <h2 className="text-xl font-bold">Links</h2>
+                <h2 className="text-xl font-bold">Currently No Links</h2>
                 <div className="space-y-2">
-                  <Button variant="outline" className="w-full" asChild>
+{/*                  <Button variant="outline" className="w-full" asChild>
                     <Link href="#" target="_blank" rel="noopener noreferrer">
                       Play Demo
                     </Link>
@@ -133,7 +138,7 @@ export default function HorseNamedFridayProjectPage() {
                     <Link href="#" target="_blank" rel="noopener noreferrer">
                       Download
                     </Link>
-                  </Button>
+                  </Button>*/}
                 </div>
               </div>
 

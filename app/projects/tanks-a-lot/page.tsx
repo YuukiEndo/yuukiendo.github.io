@@ -114,7 +114,7 @@ export default function TanksALotProjectPage() {
 
           {/* Links */}
           <div className="rounded-lg border p-6 space-y-4">
-            <h2 className="text-xl font-bold">Links</h2>
+            <h2 className="text-xl font-bold">Currently No Links</h2>
             <div className="space-y-2">
 {/*              <Button variant="outline" className="w-full" asChild>
                 <Link href="#" target="_blank" rel="noopener noreferrer">
