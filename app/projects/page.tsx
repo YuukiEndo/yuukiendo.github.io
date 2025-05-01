@@ -41,7 +41,7 @@ export default function ProjectsPage() {
                   </span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">C#</span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                    Physics
+                    Custom Physics
                   </span>
                   </div>
                   <div className="mt-6">
@@ -63,11 +63,11 @@ export default function ProjectsPage() {
                   <p className="mt-2 text-muted-foreground">{t("project.hellOfABullet.description")}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
                   <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                    Unity
+                    Allegro
                   </span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">C#</span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                    Procedural Generation
+                    Custom Engine
                   </span>
                   </div>
                   <div className="mt-6">
@@ -91,9 +91,9 @@ export default function ProjectsPage() {
                   <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
                     Unity
                   </span>
-                    <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">C#</span>
+                    <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Tools Programming</span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                    Narrative Design
+                    Enemy AI
                   </span>
                   </div>
                   <div className="mt-6">
@@ -119,10 +119,7 @@ export default function ProjectsPage() {
                   </span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">C#</span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                    Photon
-                  </span>
-                    <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                    Multiplayer
+                    Expandable Bullet Class
                   </span>
                   </div>
                   <div className="mt-6">
