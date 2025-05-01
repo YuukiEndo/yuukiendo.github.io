@@ -210,7 +210,7 @@ export default function Home() {
               </p>
               <div className="flex gap-4">
                 <Button variant="outline" size="icon" asChild>
-                  <Link href="https://linkedin.com/in/yuukiendo" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.linkedin.com/in/yuuki-endo/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-5 w-5" />
                     <span className="sr-only">LinkedIn</span>
                   </Link>
@@ -222,7 +222,7 @@ export default function Home() {
                   </Link>
                 </Button>
                 <Button variant="outline" size="icon" asChild>
-                  <Link href="mailto:contact@yuukiendo.com">
+                  <Link href="mailto:yuuki.endo.ma@gmail.com">
                     <Mail className="h-5 w-5" />
                     <span className="sr-only">Email</span>
                   </Link>

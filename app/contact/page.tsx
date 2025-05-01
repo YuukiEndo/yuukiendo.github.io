@@ -46,12 +46,12 @@ export default function ContactPage() {
                   <div className="flex items-center gap-2">
                     <Linkedin className="h-4 w-4" />
                     <a
-                      href="https://linkedin.com/in/yuukiendo"
+                      href="https://www.linkedin.com/in/yuuki-endo/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary hover:underline"
                     >
-                      linkedin.com/in/yuukiendo
+                      https://www.linkedin.com/in/yuuki-endo/
                     </a>
                   </div>
                   <div className="flex items-center gap-2">
