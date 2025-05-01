@@ -39,8 +39,10 @@ export default function MolementumProjectPage() {
                 <h2 className="text-2xl font-bold">About the Project</h2>
                 <p className="text-muted-foreground">{t("project.molementum.description")}</p>
                 <p className="text-muted-foreground">
-                  Add more detailed description here. This is a placeholder for you to add more content about the
-                  project, its goals, challenges, and outcomes.
+                  For this project I was responsible for the development of the gameplay mechanics, as well as
+                  implementing WWise audio. I was also the stand in Lead Programmer for when we had some
+                  difficulties within the team. This game was a 10 month project for our class and was one of the
+                  biggest projects I have been on. This game is currently on steam and is free to play.
                 </p>
               </div>
 
@@ -48,10 +50,10 @@ export default function MolementumProjectPage() {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold">Features</h2>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Physics-based gameplay mechanics</li>
+                  <li>Custom Physics Engine</li>
                   <li>Online multiplayer functionality</li>
-                  <li>Custom character controllers</li>
-                  <li>Add more features here...</li>
+                  <li>Keyboard and Controller friendly</li>
+                  <li>WWise Implementation for Character voicelines</li>
                 </ul>
               </div>
 
@@ -59,7 +61,12 @@ export default function MolementumProjectPage() {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold">Development Process</h2>
                 <p className="text-muted-foreground">
-                  Add details about the development process, challenges faced, and solutions implemented.
+                  This game was both a fun and challenging project. We had bigger dreams fort his game but were
+                  hit with some technical and team issues that we had to overcome. This project was a great learning
+                  opportunity for me. This game allowed me to learn more about Unity's web services as well as learn the
+                  WWise audio engine. This game has also been a great learning experience for me as I have learned how to
+                  work in a larger team as well as how to take a lead position and communicate with other parts of the team
+                  with the programmer's needs and limitations.
                 </p>
               </div>
 
@@ -83,17 +90,17 @@ export default function MolementumProjectPage() {
 
                 <div>
                   <h3 className="font-medium">Role</h3>
-                  <p className="text-muted-foreground">Lead Programmer</p>
+                  <p className="text-muted-foreground">General, Audio Programmer</p>
                 </div>
 
                 <div>
                   <h3 className="font-medium">Duration</h3>
-                  <p className="text-muted-foreground">6 months</p>
+                  <p className="text-muted-foreground">10 months</p>
                 </div>
 
                 <div>
                   <h3 className="font-medium">Team Size</h3>
-                  <p className="text-muted-foreground">4 people</p>
+                  <p className="text-muted-foreground">12 People</p>
                 </div>
 
                 <div>
@@ -106,10 +113,13 @@ export default function MolementumProjectPage() {
                       C#
                     </span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                      Physics
+                      Custom Physics Engine
                     </span>
                     <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                      Multiplayer
+                      Online Multiplayer
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
+                      WWise
                     </span>
                   </div>
                 </div>
@@ -120,18 +130,8 @@ export default function MolementumProjectPage() {
                 <h2 className="text-xl font-bold">Links</h2>
                 <div className="space-y-2">
                   <Button variant="outline" className="w-full" asChild>
-                    <Link href="#" target="_blank" rel="noopener noreferrer">
-                      Play Demo
-                    </Link>
-                  </Button>
-                  <Button variant="outline" className="w-full" asChild>
-                    <Link href="#" target="_blank" rel="noopener noreferrer">
-                      View Source Code
-                    </Link>
-                  </Button>
-                  <Button variant="outline" className="w-full" asChild>
-                    <Link href="#" target="_blank" rel="noopener noreferrer">
-                      Download
+                    <Link href="https://store.steampowered.com/app/2841830/Molementum/" target="_blank" rel="noopener noreferrer">
+                      Steam webpage
                     </Link>
                   </Button>
                 </div>
