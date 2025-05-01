@@ -39,8 +39,8 @@ export default function ContactPage() {
                   <h2 className="text-xl font-bold">Connect with me</h2>
                   <div className="flex items-center gap-2">
                     <Mail className="h-4 w-4" />
-                    <a href="mailto:contact@yuukiendo.com" className="text-primary hover:underline">
-                      contact@yuukiendo.com
+                    <a href="mailto:yuuki.endo.ma@gmail.com" className="text-primary hover:underline">
+                      yuuki.endo.ma@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center gap-2">
@@ -69,7 +69,7 @@ export default function ContactPage() {
 
                 <div className="space-y-2">
                   <h2 className="text-xl font-bold">Languages</h2>
-                  <p>English - Fluent</p>
+                  <p>English - Native</p>
                   <p>Japanese - Native</p>
                 </div>
               </div>
