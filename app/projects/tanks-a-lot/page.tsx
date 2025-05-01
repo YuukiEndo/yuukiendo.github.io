@@ -34,8 +34,9 @@ export default function TanksALotProjectPage() {
             <h2 className="text-2xl font-bold">About the Project</h2>
             <p className="text-muted-foreground">{t("project.tanksALot.description")}</p>
             <p className="text-muted-foreground">
-              Add more detailed description here. This is a placeholder for you to add more content about the project,
-              its goals, challenges, and outcomes.
+              Small 3 week project with a 3 person team. This game was meant as a prototype for a greenlight
+              competition. We unfortunately did not make it through but we were able to show off our work and our skills
+              pretty well.
             </p>
           </div>
 
@@ -45,8 +46,8 @@ export default function TanksALotProjectPage() {
             <ul className="list-disc pl-5 space-y-2">
               <li>Turn-based gameplay mechanics</li>
               <li>Extensible bullet class system</li>
-              <li>3D terrain with destructible elements</li>
-              <li>Add more features here...</li>
+              <li>Cinemachine Bullet Following Cameras</li>
+              <li>Fun and easy to control Tank Movements</li>
             </ul>
           </div>
 
@@ -54,7 +55,10 @@ export default function TanksALotProjectPage() {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold">Development Process</h2>
             <p className="text-muted-foreground">
-              Add details about the development process, challenges faced, and solutions implemented.
+              Rapid prototyping was done in the Unity game engine. We had a lot of fun building this game and
+              learning a lot about game development. We had a simple vision of bring a game like Shell Shocked
+              into the 3D world. We designed the backend to have easily extensible bullet classes and made it in a way
+              where future designers would be able to easily add new bullets to the game.
             </p>
           </div>
 
@@ -83,7 +87,7 @@ export default function TanksALotProjectPage() {
 
             <div>
               <h3 className="font-medium">Duration</h3>
-              <p className="text-muted-foreground">5 months</p>
+              <p className="text-muted-foreground">3 Weeks</p>
             </div>
 
             <div>
@@ -99,10 +103,10 @@ export default function TanksALotProjectPage() {
                 </span>
                 <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">C#</span>
                 <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                  Photon
+                  Cinemachine
                 </span>
                 <span className="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
-                  Multiplayer
+                  Raoud Prototyping
                 </span>
               </div>
             </div>
@@ -112,7 +116,7 @@ export default function TanksALotProjectPage() {
           <div className="rounded-lg border p-6 space-y-4">
             <h2 className="text-xl font-bold">Links</h2>
             <div className="space-y-2">
-              <Button variant="outline" className="w-full" asChild>
+{/*              <Button variant="outline" className="w-full" asChild>
                 <Link href="#" target="_blank" rel="noopener noreferrer">
                   Play Demo
                 </Link>
@@ -126,7 +130,7 @@ export default function TanksALotProjectPage() {
                 <Link href="#" target="_blank" rel="noopener noreferrer">
                   Download
                 </Link>
-              </Button>
+              </Button>*/}
             </div>
           </div>
 
