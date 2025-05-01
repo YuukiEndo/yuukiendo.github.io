@@ -4,21 +4,27 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
+import {SiteHeader} from "@/components/site-header";
+import {SiteFooter} from "@/components/site-footer";
 
 export default function TanksALotProjectPage() {
   const { t } = useLanguage()
 
   return (
-    <div className="container py-12 md:py-24 lg:py-32">
-      <div className="flex items-center gap-4 mb-8">
-        <Button variant="ghost" size="icon" asChild>
-          <Link href="/projects">
-            <ArrowLeft className="h-4 w-4" />
-            <span className="sr-only">Back to projects</span>
-          </Link>
-        </Button>
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Tanks-A-Lot</h1>
-      </div>
+      <div className="flex min-h-screen flex-col">
+        <SiteHeader />
+        <main className="flex-1">
+          <div className="container mx-auto px-4 py-12 md:py-24 lg:py-32">
+            <div className="flex items-center gap-4 mb-8">
+              <Button variant="ghost" size="icon" asChild>
+                <Link href="/projects">
+                  <ArrowLeft className="h-4 w-4" />
+                  <span className="sr-only">Back to projects</span>
+                </Link>
+              </Button>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Tanks-A-Lot!!</h1>
+            </div>
+
 
       <div className="grid gap-8 md:grid-cols-[2fr_1fr]">
         <div className="space-y-8">
@@ -151,6 +157,9 @@ export default function TanksALotProjectPage() {
           </div>
         </div>
       </div>
-    </div>
+          </div>
+          </main>
+        <SiteFooter />
+      </div>
   )
 }
